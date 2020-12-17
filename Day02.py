@@ -63,7 +63,7 @@ df['new_valid'] = new_validity
 how_many_new = 0
 for row in range(len(df)):
     if df['new_valid'][row] == True:
-        print(df['password'][row], df['beg_num'][row], df['end_num'][row], df['letter'][row])
+        # print(df['password'][row], df['beg_num'][row], df['end_num'][row], df['letter'][row])
         how_many_new += 1
 
 print(how_many_new)
